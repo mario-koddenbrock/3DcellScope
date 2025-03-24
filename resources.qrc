@@ -1,0 +1,27 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>logos/3D.png</file>
+    <file>logos/notThreshold.png</file>
+    <file>logos/threshold.png</file>
+    <file>logos/notCells.png</file>
+    <file>logos/notMitoses.png</file>
+    <file>logos/notOrganoid.png</file>
+    <file>logos/cells.png</file>
+    <file>logos/nuclei.png</file>
+    <file>logos/mitoses.png</file>
+    <file>logos/organoid.png</file>
+    <file>logos/search.svg</file>
+    <file>logos/processing.png</file>
+    <file>logos/export.png</file>
+    <file>logos/file.svg</file>
+    <file>logos/folder.svg</file>
+    <file>logos/image.png</file>
+    <file>logos/info.svg</file>
+    <file>logos/layers.png</file>
+    <file>logos/plot.png</file>
+    <file>logos/resize.png</file>
+    <file>logos/save.png</file>
+    <file>logos/settings.svg</file>
+    <file>logos/table.png</file>
+  </qresource>
+</RCC>
