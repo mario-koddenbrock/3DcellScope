@@ -6,8 +6,9 @@ By integrating both advanced 3D AI tools and the versatility of user-oriented so
 The package is only compatible with Windows operating systems.
 
 ## Documentation
-The official documentation, 3DCellScope Quick Start Guide is available inside 3DCellScope.zip folder and at: 
- 
+The official documentation, 3DCellScope Quick Start Guide is available inside 3DCellScope.zip folder: 
+![Screenshot 3DCellScope](3DCellScope.png)
+
 Examples of usage and troubleshoots can be found following the video folder included 3DCellScope.zip folder.
 
 ### System Requirements
