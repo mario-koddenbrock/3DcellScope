@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>236</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Auto Resize - Voxel Size -</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>OSlogo.ico</normaloff>OSlogo.ico</iconset>
+  </property>
+  <widget class="QLabel" name="InputImageYLabel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>58</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Y</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="InputImageZLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>58</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1.0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ApplyAutoResizeButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Apply Auto Resize</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InputImageZLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>58</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Z</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResampleXLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Resample X :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResampleYLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Resample Y :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TrainingDataZLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>18</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Z</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TrainingDataZLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>18</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="InputImageYLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>58</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1.0</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TrainingDataXLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>18</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.8</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="InputImageXLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>58</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1.0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InputImageXLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>58</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResampleZLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Resample Z :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TrainingDataXLabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>18</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TrainingDataYLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>18</y>
+     <width>55</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0.8</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TrainingDataLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Training Data Voxel Size :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TrainingDataYLabel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>18</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Y</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="InputImageLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Input Image Voxel Size :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResampleXValueLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>100</y>
+     <width>311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResampleYValueLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ResampleZValueLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>160</y>
+     <width>311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
