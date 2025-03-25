@@ -1,6 +1,9 @@
 # 3DCELLSCOPE DEMO version     
 **3DCELLSCOPE** is a demonstration version of a user friendly software allowing to perform 3D cell segmentation using different pre-trained CNN networks and others state-of-the-art segmentation approaches.
 
+## Download
+The binary software application can be downloaded here: https://quantacell.cloud.in-cubes.com/index.php/s/YNGLws52yzDJFg4
+
 ## Overview
 By integrating both advanced 3D AI tools and the versatility of user-oriented software under a single software, 3DCellScope bridge the gap between specialized pipelines and generalist commercial software positioning itself as an ideal choice for 3D image analysis of complex biological structure. Furthermore, we provide an interface that allows for the direct integration of other AI networks for nuclei segmentation. This capability facilitates collaborative efforts, acknowledges the rapid evolution of the field, and uniquely empowers users to assess the performance of different AI solutions with a single click.
 The package is only compatible with Windows operating systems.
