@@ -32,9 +32,6 @@ On Windows:
 
 `name_of_your_venv\Scripts\activate`
 
-On macOS/Linux:
-
-`source name_of_your_venv/bin/activate`
 
 ### Installing Dependencies
 
